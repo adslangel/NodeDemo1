@@ -10,7 +10,7 @@ var server = supertest.agent("http://localhost:4000");
 describe("SAMPLE unit test",function(){
 
   // #1 should return home page
-  it("should return home page!!!XX",function(done){
+  it("should return home page!!!X",function(done){
     // calling home page
     server
     .get("/")
